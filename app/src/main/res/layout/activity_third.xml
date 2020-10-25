@@ -4,32 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
 
     <TextView
-        android:id="@+id/tiki_title"
+        android:id="@+id/second_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tiki lounge"
+        android:text="Theater Room"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="50sp"
-        android:textColor="@color/draper"
+        android:textColorLink="@color/draper"
         />
 
-    <Button
-        android:id="@+id/second_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To the Theater"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/tiki_title"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
