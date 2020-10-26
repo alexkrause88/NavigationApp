@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/titlepro"
+        android:id="@+id/main_title_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Draper"
@@ -26,9 +26,24 @@
         android:text="We Livin"
         android:textSize="30sp"
         android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/titlepro"
+        app:layout_constraintTop_toBottomOf="@id/main_title_textview"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Number"
+        app:layout_constraintTop_toBottomOf="@+id/main_title_textview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="32sp"
+        android:inputType="number"
+        android:id="@+id/main_room_number_input"
+
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
