@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ThirdActivity">
+    tools:context=".FouthActivity">
 
     <TextView
-        android:id="@+id/second_button"
+        android:id="@+id/third_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Theater Room"
+        android:text="RoofTop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -19,17 +19,5 @@
         android:textColorLink="@color/teal_200"
         />
 
-    <Button
-        android:id="@+id/third_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To the Rooftop"
-        android:textSize="30sp"
-        android:textColor="@color/white"
-        app:layout_constraintTop_toBottomOf="@id/second_button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
+
