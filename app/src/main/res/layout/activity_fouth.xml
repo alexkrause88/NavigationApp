@@ -7,7 +7,7 @@
     tools:context=".FouthActivity">
 
     <TextView
-        android:id="@+id/third_button"
+        android:id="@+id/rooftop_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RoofTop"
@@ -19,18 +19,34 @@
         android:textColorLink="@color/teal_200"
         />
 
-    <RadioButton android:id="@+id/radio_theater"
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rooftop_text">
+
+    <RadioButton
+        android:id="@+id/radio_theater"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="click here homie"
-        app:layout_constraintBottom_toBottomOf="parent"
         />
+        <RadioButton
+            android:id="@+id/radio2_theater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="click here please"
+            />
+    </RadioGroup>
+
 
     <CheckBox android:id="@+id/checkbox_theater"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Are you Good?"
-        app:layout_constraintBottom_toBottomOf="@+id/third_button"
+        app:layout_constraintBottom_toBottomOf="@+id/rooftop_text"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"

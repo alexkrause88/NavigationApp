@@ -10,7 +10,7 @@ class ThirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
 
-        val bigButton: Button = findViewById(R.id.third_button)
+        val bigButton: Button = findViewById(R.id.rooftop_text)
 
         bigButton.setOnClickListener {
             val intent = Intent(this,FouthActivity::class.java)
